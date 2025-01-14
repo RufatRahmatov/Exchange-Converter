@@ -52,3 +52,26 @@ div > i {
   align-items: center;
   justify-content: center;
 }
+
+#money-animation {
+  position: absolute;
+  bottom: 760px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+.money-icon {
+  font-size: 24px;
+  color: green;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

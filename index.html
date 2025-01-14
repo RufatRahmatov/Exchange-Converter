@@ -56,8 +56,8 @@
           </select>
           <i class="fa-solid fa-arrow-right"></i>
           <select id="secondCurrencyOption">
-            <option selected>USD</option>
-            <option value="">EUR</option>
+            <option>USD</option>
+            <option selected>EUR</option>
             <option value="">JPY</option>
             <option value="">BGN</option>
             <option value="">CZN</option>
@@ -93,9 +93,16 @@
           </select>
 
           <input type="number" id="result" readonly placeholder="result" />
-          <span> Copyright &copy; </span>
+        </div>
+        <div id="money-animation">
+          <i class="fa-solid fa-dollar-sign money-icon"></i>
+          <i class="fa-solid fa-euro-sign money-icon"></i>
+          <i class="fa-solid fa-yen-sign money-icon"></i>
+          <i class="fa-solid fa-pound-sign money-icon"></i>
         </div>
       </div>
     </div>
+    <script src="/currency.js"></script>
+    <script src="/main.js"></script>
   </body>
 </html>
